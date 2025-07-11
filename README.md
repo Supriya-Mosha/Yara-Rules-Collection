@@ -27,22 +27,24 @@ Yara-Rules-Collection/
 
 ## 🧪 How to Test YARA Rules
 
-### ✅ 1. Install YARA (if not already)
+### ✅ Install YARA (if not already)
 ```bash
 sudo apt update
 sudo apt install yara
 ### 🔧 How to Use
 1. Install YARA on Kali Linux: `sudo apt install yara`
 2. Run a rule on a file:
-.YARA (Yet Another Recursive Acronym) is a tool used in cybersecurity to identify and classify malwares based on textual or binary patterns (signatures). It is widely used by malware researchers and threat hunters.
+**EXTRA**
+**What is YARA? **
+YARA (Yet Another Recursive Acronym) is a tool used in cybersecurity to identify and classify malwares based on textual or binary patterns (signatures). It is widely used by malware researchers and threat hunters.
 .Save rule as .yar or .yara
 
-.Where are YARA Rules Used?
+**Where are YARA Rules Used?**
   In tools like VirusTotal, MalwareBazaar, Velociraptor, Falcon Sandbox, Kali Linux
   Inside SIEM and EDR systems for threat detection
   On memory dumps or disk images during malware analysis
 
-##Basic Structure of a YARA Rule
+**Basic Structure of a YARA Rule**
 rule RuleName
 {
     meta:
@@ -57,7 +59,7 @@ rule RuleName
         any of them
 }
 
-***Sections of a YARA Rule
+**Sections of a YARA Rule**
 1.rule
 Starts the rule and names it.
 Example: rule Ransomware_Detect
