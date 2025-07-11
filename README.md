@@ -17,10 +17,10 @@ Yara-Rules-Collection/
 - **ransomware_rule.yar**  
   Detects common ransomware message strings such as `"Your files have been encrypted"`.
 
-- **powershell_base64.yar** *(optional)*  
+- **powershell_base64.yar** 
   Detects Base64-encoded PowerShell commands often used in malware delivery.
 
-- **keylogger_rule.yar** *(optional)*  
+- **keylogger_rule.yar**  
   Detects common strings or APIs used by keyloggers like `GetAsyncKeyState`.
 
 ---
